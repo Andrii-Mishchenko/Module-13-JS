@@ -11,3 +11,4 @@ function fetchBookById(bookId) {
 fetchBooks();
 fetchBookById(2);
 fetchBookById(4);
+fetchBookById(6);

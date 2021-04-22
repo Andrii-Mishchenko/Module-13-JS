@@ -9,8 +9,9 @@ function addBook(book) {
     body: JSON.stringify(book),
   };
 
-  return fetch(`${BASE_URL}/books`, options).then(res => res.json());
+  return fetch(`${BASE_URL}/books`, options).then(res => res.json()).then(console.log);
 }
+addBook(1)
 
 // addBook({
 //   title: 'Тестовая книга по CSS',

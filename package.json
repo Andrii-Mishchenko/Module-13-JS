@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "server": "json-server --watch db.json -p 4040 -d 300"
+    "server": "json-server --watch db.json -p 4040"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,9 @@
   },
   "homepage": "https://github.com/luxplanjay/js-22#readme",
   "devDependencies": {
-    "json-server": "^0.16.2",
+    "json-server": "^0.16.3",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1"
-  },
-  "dependencies": {}
+  }
 }
